@@ -65,12 +65,19 @@ var average = total / 5;
 
 // var for console print log
 
-var primero =("You have spent a total of " +" "+total);
-var segundo =("on groceries over weeks.That is an average of"+ " "+average);
+var primero =("You have spent a total of $"+" "+total);
+var segundo =("on groceries over weeks.That is an average of $"+ " "+average);
 var tercero = ("per week");
 
 var juntos =""+String(primero)+" "+String (segundo)+" "+(tercero);
 console.log (juntos);
 
 //Discounts
+
+//Var
+
+var originalPrice = 40;
+var discountPercentage =.20;
+var taxPercentage =6.5;
+
 

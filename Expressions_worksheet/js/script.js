@@ -16,3 +16,22 @@ var final = ""+ String (result1)+" "+String(result2)+" "+String(result3);
 //print out “Sparky is X human years old which is X in dog years.
 console.log (final);
 
+//slice of pie part 1
+
+//given
+var slicesPizza =8;
+var numberOfPeople = 20;
+var pizzasOrdered = 4;
+
+//multiply slices od pizza * pizzas ordered
+
+var numberOfSlices = slicesPizza * pizzasOrdered;
+var pizzaPerPearson = numberOfSlices/numberOfPeople;
+
+// var for console print log
+var first =("Each person ate"+" "+ pizzaPerPearson);
+var second =("slices of pizza at the party");
+var final2 =""+String(first)+" "+String (second);
+//print Each person ate x slices of pizza at the party
+console.log (final2);
+

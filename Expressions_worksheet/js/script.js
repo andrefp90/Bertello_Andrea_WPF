@@ -48,5 +48,29 @@ var remainder = numberOfSlices - numberOfPeople ;
 var ab =("Sparky got "+" "+remainder);
 var ba =("slices of pizza")
 var abc =""+String(ab)+" "+String(ba);
+//print for console
 console.log (abc);
+
+//Average shopping bill
+
+//Expressions with Arrays
+
+var weekSpent =[40, 50, 70, 60, 35];
+
+var total = weekSpent[0]+weekSpent[1]+weekSpent[2]+weekSpent[3]+weekSpent[4];
+
+//Divide the total by 5
+
+var average = total / 5;
+
+// var for console print log
+
+var primero =("You have spent a total of " +" "+total);
+var segundo =("on groceries over weeks.That is an average of"+ " "+average);
+var tercero = ("per week");
+
+var juntos =""+String(primero)+" "+String (segundo)+" "+(tercero);
+console.log (juntos);
+
+//Discounts
 

@@ -24,7 +24,6 @@ var numberOfPeople = 20;
 var pizzasOrdered = 4;
 
 //multiply slices od pizza * pizzas ordered
-
 var numberOfSlices = slicesPizza * pizzasOrdered;
 var pizzaPerPearson = numberOfSlices/numberOfPeople;
 
@@ -32,6 +31,22 @@ var pizzaPerPearson = numberOfSlices/numberOfPeople;
 var first =("Each person ate"+" "+ pizzaPerPearson);
 var second =("slices of pizza at the party");
 var final2 =""+String(first)+" "+String (second);
+
 //print Each person ate x slices of pizza at the party
 console.log (final2);
+
+//slice of pie part 2
+
+//Result variables
+var numberOfSlicesSparkyGets ;
+
+// Number of slices - number of people
+var remainder = numberOfSlices - numberOfPeople ;
+
+//var for console print log
+
+var ab =("Sparky got "+" "+remainder);
+var ba =("slices of pizza")
+var abc =""+String(ab)+" "+String(ba);
+console.log (abc);
 

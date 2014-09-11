@@ -12,3 +12,6 @@ var name=prompt("Please type in your name:");
 console.log(name);
 //Alert to the user and explain what we are doing
 alert("Welcome"+name+"! Let's find out how much will you earn with a project!");
+
+//Ask what it's she/he rate per hour
+var chargePerHour =parseInt(prompt(name+" "+"How much do you charge per hour?"));

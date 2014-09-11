@@ -16,5 +16,9 @@ alert("Welcome"+" "+name+"! Let's find out how much you spend in a month!");
 var gas= prompt ("How much do you spend on gas");
 console.log (gas);
 
+var water = prompt("How much is your water bill");
+console.log (water);
+
+
 
 

@@ -19,6 +19,11 @@ console.log (gas);
 var water = prompt("How much is your water bill");
 console.log (water);
 
+var electricity= prompt("How much is your electricity bill");
+console.log (electricity);
+
+
+
 
 
 

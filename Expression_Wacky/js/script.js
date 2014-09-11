@@ -11,7 +11,12 @@ console.log (name);
 alert("Welcome"+" "+name+"! Let's find out how many body's your height fit in a soccer field!");
 
 //Prompt for the user height
-var height=parseInt(prompt(name+" "+"What is your height?"));
+var height=parseInt(prompt(name+" "+"What is your height in feet?"));
+console.log ("The height of the user"+" "+height+ "ft");
+
+//Area of a soccer field when the soccer field is 110 long and 64 wide
+var area = (110 * 64)*3
+console.log ("The area of the soccer field"+" "+area+"ft");
 
 
 

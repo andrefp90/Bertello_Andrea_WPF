@@ -26,10 +26,11 @@ var result = chargePerHour *= hoursWorked;
 console.log("The total earned is $"+result);
 
 //Alert the user of how much wil she/he earn
-alert(name+" "+"you will earn $"+result+" "+"dollars");
+alert(name+" "+"you charge $"+" "+chargePerHour+" "+"you will earn $"+result+" "+"dollars");
 
 //Alert to thank the user
 alert(name+" "+ "Thank you!!");
+
 
 
 

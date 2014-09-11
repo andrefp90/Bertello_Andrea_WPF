@@ -58,7 +58,7 @@ if(year ==="yes") {
     alert(name+" "+"In a year you spend $"+calculateYear+" "+"dollars");
 }else{
     alert("Thank you! ");
-    
+
 
 
 }

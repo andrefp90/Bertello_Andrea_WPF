@@ -45,6 +45,9 @@ var left =prompt("Do you want to know how much you have left after paying your b
 if (left ==="yes"){
     alert(name+" "+"you will have left after paying your bills"+" "+moneyLeft);
 
+}else{
+    alert("Thank you!");
+
 }
 //Calculate what would be a year
 var calculateYear =total*24;
@@ -55,7 +58,8 @@ var year =prompt("Do you want to know how much you spend in a year? yes or no");
 if(year ==="yes") {
     alert(name+" "+"In a year you spend $"+calculateYear+" "+"dollars");
 }else{
-    console.log("Thank you! ");
+    alert("Thank you! ");
+    
 }
 
 

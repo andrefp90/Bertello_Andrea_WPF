@@ -20,7 +20,10 @@ console.log ("The area of the soccer field"+" "+area+"ft");
 
 //divide the height by the area
 var bodyInSoccerField = area / height ;
-console.log (bodyInSoccerField+"This is how many"+" "+name+" "+"fit in one soccer field");
+console.log (bodyInSoccerField+" "+"Is the number that"+" "+name+" "+"would fit in one soccer field");
+
+//Alert the user of the result
+alert(bodyInSoccerField+" "+name+"'s fit in a soccer field!! ");
 
 
 

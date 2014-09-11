@@ -19,6 +19,7 @@ alert("Welcome"+name+"! Let's go and figure out how old you are!");
 var yearBorn = prompt("What year where you born?");
 console.log(yearBorn);
 
+
 //Current year -year born
 
 var currentYear =2014;
@@ -46,7 +47,17 @@ console.log(yearsMore);
 var futureAge = age + Number(yearBorn);
 console.log(futureAge);
 
-//Mke the results pretty
+//Make the results pretty
 
 console.log("You will be"+futureAge+" in "+ yearsMore+"more years.");
 alert("You will be"+futureAge+" in "+ yearsMore+"more years.");
+
+//Ask if you want
+
+var wantDog =prompt("Doyou want a dog? Yes or No");
+
+if(wantDog ==="yes") {
+    var breed = prompt("What breed do you want?");
+}else{
+    console.log("That's sad, dogs are adorable! ");
+}

@@ -46,7 +46,7 @@ var remainder = numberOfSlices - numberOfPeople ;
 //var for console print log
 
 var ab =("Sparky got "+" "+remainder);
-var ba =("slices of pizza")
+var ba =("slices of pizza");
 var abc =""+String(ab)+" "+String(ba);
 //print for console
 console.log (abc);
@@ -77,7 +77,28 @@ console.log (juntos);
 //Var
 
 var originalPrice = 40;
-var discountPercentage =.20;
-var taxPercentage =6.5;
+var discountPercentage = .20;
+var taxPercentage =.065;
+var dress =("red dress");
+var percentage = ("20");
 
+//Result Variable of tax
 
+var tax = originalPrice * taxPercentage;
+console.log(tax);
+var taxPrice = originalPrice +tax;
+console.log (taxPrice);
+
+//Result Variable of discount
+
+var discount = discountPercentage * originalPrice;
+var priceWithDiscount = originalPrice - discount;
+
+console.log(discount);
+var priceWithTax = priceWithDiscount + taxPrice ;
+
+//var for printing console.log
+var phrase = ("Your"+" "+dress+" "+"was originally $"+originalPrice +",but after a"+" "+ percentage +
+ +" "+ " discount, it is now $"+" "+ priceWithDiscount+" "+"without tax,and"+" "+ priceWithTax +" "+"with tax");
+//Printing to console
+console.log(phrase);

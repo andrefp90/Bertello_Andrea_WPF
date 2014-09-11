@@ -23,10 +23,14 @@ var bodyInSoccerField = area / height ;
 console.log (bodyInSoccerField+" "+"Is the number that"+" "+name+" "+"would fit in one soccer field");
 
 //Alert the user of the result
-alert(bodyInSoccerField+" "+name+"'s fit in a soccer field!! ");
+alert(name+" " +"Your height is"+" "+height+"ft so"+" "+bodyInSoccerField+" " +
+    ""+name+ "'s fit in a soccer field!! ");
 
 //Alert user thank you
 alert(name+" "+"Thank you!! For using Wacky expression");
+
+
+
 
 
 

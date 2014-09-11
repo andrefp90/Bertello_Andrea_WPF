@@ -26,12 +26,15 @@ console.log (electricity);
 var phone=parseInt( prompt("How much is your phone bill?"));
 console.log (phone);
 
-//Add gas, water, electricity and phone
+//Add gas, water, electricity and phone with Arrays
 
 var result = [gas,water,electricity,phone];
 var total = result[0]+result[1]+result[2]+result[3];
 console.log(total);
 
+//Alert how much she/he spends in a month
+
+alert(name+" "+"In a month you spend $"+total+" "+"dollars");
 
 
 

@@ -11,3 +11,10 @@ Andrea Bertello Franco
 var name=prompt("Please type in your name:");
 console.log (name)
 alert("Welcome"+" "+name+"! Let's find out how much you spend in a month!");
+
+// Prompt to get answer of gas, water, electricity and phone
+var gas= prompt ("How much do you spend on gas");
+console.log (gas);
+
+
+

@@ -36,9 +36,13 @@ console.log(total);
 
 alert(name+" "+"In a month you spend $"+total+" "+"dollars");
 
+//Calculate what would be a year
+var calculateYear =total*24;
+
 //Ask if you want to know how much you will spend in a year
 
 var year =prompt("Do you want to know how much you spend in a year? yes or no");
+
 
 
 

@@ -13,17 +13,26 @@ console.log (name)
 alert("Welcome"+" "+name+"! Let's find out how much you spend in a month!");
 
 // Prompt to get answer of gas, water, electricity and phone
-var gas= prompt ("How much do you spend on gas?");
+var gas= parseInt (prompt ("How much do you spend on gas?"));
+
 console.log (gas);
 
-var water = prompt("How much is your water bill?");
+var water = parseInt( prompt("How much is your water bill?"));
 console.log (water);
 
-var electricity= prompt("How much is your electricity bill?");
+var electricity=parseInt( prompt("How much is your electricity bill?"));
 console.log (electricity);
 
-var phone= prompt("How much is your phone bill?");
+var phone=parseInt( prompt("How much is your phone bill?"));
 console.log (phone);
+
+//Add gas, water, electricity and phone
+
+var result = [gas,water,electricity,phone];
+var total = result[0]+result[1]+result[2]+result[3];
+console.log(total);
+
+
 
 
 

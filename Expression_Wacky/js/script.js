@@ -25,6 +25,12 @@ console.log (bodyInSoccerField+" "+"Is the number that"+" "+name+" "+"would fit 
 //Alert the user of the result
 alert(bodyInSoccerField+" "+name+"'s fit in a soccer field!! ");
 
+//Alert user thank you
+alert(name+" "+"Thank you!! For using Wacky expression");
+
+
+
+
 
 
 

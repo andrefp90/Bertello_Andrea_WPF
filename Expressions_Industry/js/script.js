@@ -11,7 +11,7 @@ var name=prompt("Please type in your name:");
 //test
 console.log(name);
 //Alert to the user and explain what we are doing
-alert("Welcome"+" "+name+"! Let's find out how much will you earn with a project!");
+alert("Welcome"+" "+name+"! Let's find out how much will you earn with a freelance project!");
 
 //Ask what it's she/he rate per hour
 var chargePerHour =parseInt(prompt(name+" "+"How much do you charge per hour?"));
@@ -23,5 +23,10 @@ console.log ("Hours worked"+" "+hoursWorked);
 
 //Multiply the rate per hour times the hours worked
 var result = chargePerHour *= hoursWorked;
-console.log(result);
+console.log("The total earned is $"+result);
+
+//Alert the user of how much wil she/he earn
+alert(name+" "+"you will earn $"+result+" "+"dollars");
+
+
 

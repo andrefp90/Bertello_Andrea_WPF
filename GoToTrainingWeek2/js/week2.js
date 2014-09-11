@@ -54,7 +54,7 @@ alert("You will be"+futureAge+" in "+ yearsMore+"more years.");
 
 //Ask if you want
 
-var wantDog =prompt("Doyou want a dog? Yes or No");
+var wantDog =prompt("Do you want a dog? Yes or No");
 
 if(wantDog ==="yes") {
     var breed = prompt("What breed do you want?");

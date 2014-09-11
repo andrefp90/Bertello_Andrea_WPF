@@ -42,7 +42,7 @@ var moneyLeft =monthEarnings -total;
 //Ask if you want to know how much you will have left after paying your bills
 var left =prompt("Do you want to know how much you have left after paying your bills? yes or no");
 if (left ==="yes"){
-    alert(name+" "+"you will have left after paying your bills"+" "+moneyLeft);
+    alert(name+" "+"you will have left after paying your bills $"+" "+moneyLeft+" "+"dollars");
 
 }else{
     alert("Thank you!");
@@ -58,6 +58,8 @@ if(year ==="yes") {
     alert(name+" "+"In a year you spend $"+calculateYear+" "+"dollars");
 }else{
     alert("Thank you! ");
+    
+
 
 }
 

@@ -14,23 +14,22 @@ alert("Welcome"+" "+name+"! Let's find out how much you spend in a month!");
 
 // Prompt to get answer of gas, water, electricity and phone
 var gas= parseInt (prompt ("How much do you spend on gas?"));
-
-console.log (gas);
+console.log ("How much did she/he spend on gas"+" "+gas);
 
 var water = parseInt( prompt("How much is your water bill?"));
-console.log (water);
+console.log ("How much did she/he spend on water"+" "+water);
 
 var electricity=parseInt( prompt("How much is your electricity bill?"));
-console.log (electricity);
+console.log ("How much did she/he spend on electricity"+" "+electricity);
 
 var phone=parseInt( prompt("How much is your phone bill?"));
-console.log (phone);
+console.log ("How much did she/he spend on phone"+" "+phone);
 
 //Add gas, water, electricity and phone with Arrays
 
 var result = [gas,water,electricity,phone];
 var total = result[0]+result[1]+result[2]+result[3];
-console.log(total);
+console.log("The total spent in bills"+" "+total);
 
 //Alert how much she/he spends in a month
 
@@ -59,7 +58,7 @@ if(year ==="yes") {
     alert(name+" "+"In a year you spend $"+calculateYear+" "+"dollars");
 }else{
     alert("Thank you! ");
-    
+
 }
 
 

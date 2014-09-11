@@ -42,6 +42,9 @@ var calculateYear =total*24;
 //Ask if you want to know how much you will spend in a year
 
 var year =prompt("Do you want to know how much you spend in a year? yes or no");
+if(wantDog ==="yes") {
+    alert(name+" "+"In a year you spend $"+calculateYear+" "+"dollars");
+    
 
 
 

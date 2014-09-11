@@ -43,6 +43,7 @@ var moneyLeft =monthEarnings -total;
 //Ask if you want to know how much you will have left after paying your bills
 var left =prompt("Do you want to know how much you have left after paying your bills? yes or no");
 if (left ==="yes"){
+    alert(name+" "+"you will have left after paying your bills"+" "+moneyLeft);
 
 }
 //Calculate what would be a year
@@ -56,6 +57,8 @@ if(year ==="yes") {
 }else{
     console.log("Thank you! ");
 }
+
+
 
 
 

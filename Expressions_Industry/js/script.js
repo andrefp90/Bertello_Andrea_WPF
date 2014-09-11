@@ -15,3 +15,9 @@ alert("Welcome"+name+"! Let's find out how much will you earn with a project!");
 
 //Ask what it's she/he rate per hour
 var chargePerHour =parseInt(prompt(name+" "+"How much do you charge per hour?"));
+
+//Ask how many hours did she/he work
+
+var hoursWorked = parseInt(prompt(name+" "+"How many hours did you work on the project"));
+
+

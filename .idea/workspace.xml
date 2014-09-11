@@ -29,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/GoToTrainingWeek2/js/week2.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="452" max-vertical-offset="960">
-              <caret line="59" column="50" selection-start-line="58" selection-start-column="0" selection-end-line="59" selection-end-column="50" />
+              <caret line="62" column="1" selection-start-line="60" selection-start-column="0" selection-end-line="62" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -48,8 +48,8 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Expressions_Personal/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8117155" vertical-offset="302" max-vertical-offset="960">
-              <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.8344086" vertical-offset="362" max-vertical-offset="1050">
+              <caret line="50" column="31" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -603,15 +603,15 @@
     <entry file="file://$PROJECT_DIR$/GoToTrainingWeek2/js/week2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="452" max-vertical-offset="960">
-          <caret line="59" column="50" selection-start-line="58" selection-start-column="0" selection-end-line="59" selection-end-column="50" />
+          <caret line="62" column="1" selection-start-line="60" selection-start-column="0" selection-end-line="62" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Expressions_Personal/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8117155" vertical-offset="302" max-vertical-offset="945">
-          <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.8344086" vertical-offset="362" max-vertical-offset="1050">
+          <caret line="50" column="31" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
           <folding />
         </state>
       </provider>

@@ -36,15 +36,21 @@ console.log(total);
 
 alert(name+" "+"In a month you spend $"+total+" "+"dollars");
 
+//Ask if you want to know how much you will have left after paying your bills
+var year =prompt("Do you want to know how much you have left after paying your bills? yes or no");
+
 //Calculate what would be a year
 var calculateYear =total*24;
 
 //Ask if you want to know how much you will spend in a year
 
 var year =prompt("Do you want to know how much you spend in a year? yes or no");
-if(wantDog ==="yes") {
+if(year ==="yes") {
     alert(name+" "+"In a year you spend $"+calculateYear+" "+"dollars");
-    
+}else{
+    console.log("Thank you! ");
+}
+
 
 
 

@@ -9,3 +9,10 @@
 var name=prompt("Please type in your name:");
 console.log (name)
 alert("Welcome"+" "+name+"!Lets see after if you need a break from work!");
+
+//var for time working
+var timeWorking = 2;
+
+
+
+

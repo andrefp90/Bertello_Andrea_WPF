@@ -12,7 +12,7 @@ console.log (name)
 alert("Welcome"+" "+name+" "+"!Let's check ot how many calories you have left in a 2000 calorie diet");
 
 //ask the user how many calories have they consumed
-var caloriesConsumed = prompt(name+" "+"How many calories have you consumed today?");
+var caloriesConsumed =parseInt(prompt(name+" "+"How many calories have you consumed today?"));
 console.log("How many calories have you consumed"+" "+caloriesConsumed);
 
 // var for an obligatory breakfast calories
@@ -20,7 +20,11 @@ var breakfast = 500;
 //daily calories var
 var dailyCalories = 2000;
 
+//how many calories do you have left
+var caloriesLeft =dailyCalories-( breakfast += caloriesConsumed);
+console.log ("You have"+" "+caloriesLeft+"Calories left"+)
 //if the calories and the breakfast is less than 2000
+
 
 
 

@@ -27,11 +27,14 @@ console.log ("You have"+" "+caloriesLeft+" "+"Calories left");
 //if the calories and the breakfast is less than 2000
 
 if(breakfast && caloriesConsumed > dailyCalories){
-    console.log("You haven't reached the goal you have "+" "+caloriesLeft+" "+"calories left")
-
+    console.log("You haven't reached the goal you have "+" "+caloriesLeft+" "+"calories left");
+    alert(name+" "+"You haven't reached the goal you have "+" "+caloriesLeft+" "+"calories left")
 }else{
-    console.log("You have over passed your goal!!")
+    console.log("You have over passed your goal!!");
+    alert(name+" "+"You have over passed your goal!!");
 }
+
+
 
 
 

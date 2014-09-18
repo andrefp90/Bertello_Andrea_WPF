@@ -11,9 +11,15 @@ var name=prompt("Please type in your name:");
 console.log (name)
 alert("Welcome"+" "+name+" "+"!Let's check ot how many calories you have left in a 2000 calorie diet");
 
-//
+//ask the user how many calories have they consumed
 var caloriesConsumed = prompt(name+" "+"How many calories have you consumed today?");
 console.log("How many calories have you consumed"+" "+caloriesConsumed);
+
+//a var for an obligatory breakfast calories
+var breakfast = 500;
+
+
+
 
 
 

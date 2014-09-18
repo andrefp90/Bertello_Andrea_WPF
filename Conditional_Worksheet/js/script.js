@@ -22,7 +22,21 @@ if (cOrF === "c"){
     alert("The temperature is"+" "+degreesF+" "+" degrees fahrenheit")
 }
 
+//Last chance for gas
 
+//
+var mpg = 24.6;
+var tankReading =.20
+var carCapacity = 16.8;
+
+//Grade letter Calculator
+var grade =parseInt(prompt("What is your grade"));
+console.log (grade+" "+"grade of student")
+
+var a =90 && 100;
+var b =80 && 89;
+var letterC =70 && 79;
+var d =70 &&72
 
 
 

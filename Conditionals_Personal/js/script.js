@@ -21,8 +21,10 @@ var notTooCold = 60;
 var temperature= prompt("What is the temperature");
 console.log ("The temperature is"+ " "+temperature+" "+"degrees celsius");
 
-
-
+//user forgot to put input
+if (temperature=== ""){
+    prompt("You forgot to put the temperature please put it in")
+}
 //If the temperature is grater than 75 it's too hot
 if(temperature >warm ){
     alert("It's too hot you should wear something light; a dress or shorts")
@@ -30,6 +32,7 @@ if(temperature >warm ){
 }else if(temperature < notTooCold) {
    alert ("It's cold wear something warm; use layers")
 }
+
 
 
 

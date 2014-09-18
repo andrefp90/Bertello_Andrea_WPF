@@ -15,8 +15,15 @@ alert("Welcome"+" "+name+" "+"!Let's check ot how many calories you have left in
 var caloriesConsumed = prompt(name+" "+"How many calories have you consumed today?");
 console.log("How many calories have you consumed"+" "+caloriesConsumed);
 
-//a var for an obligatory breakfast calories
+// var for an obligatory breakfast calories
 var breakfast = 500;
+//daily calories var
+var dailyCalories = 2000;
+
+//if the calories and the breakfast is less than 2000
+
+
+
 
 
 

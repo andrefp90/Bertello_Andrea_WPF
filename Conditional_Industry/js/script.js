@@ -13,6 +13,15 @@ alert("Welcome"+" "+name+"!Lets see after if you need a break from work!");
 //var for time working
 var timeWorking = 2;
 
+//prompt user for hours worked
+var hoursWorked =prompt(name+" "+"How many hours have you been working?");
+//If user foregts to put input reminder
+if (hoursWorked === ""){
+    ("oops You forgot to write the answer: Please type in how many hours have you worked")
+}
+
+
+
 
 
 

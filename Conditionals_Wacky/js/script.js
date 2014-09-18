@@ -16,6 +16,10 @@ alert("Welcome"+" "+name+" "+"!Let's check ot how many calories you have left in
 var caloriesConsumed =parseInt(prompt(name+" "+"How many calories have you consumed today?"));
 console.log("How many calories have you consumed"+" "+caloriesConsumed);
 
+//If user forgets to put input remind she/he
+if (hoursWorked === ""){
+    ("oops You forgot to write the answer: Please type in how many calories have you consumed");
+}
 // var for an obligatory breakfast calories
 var breakfast = 500;
 //daily calories var
@@ -37,8 +41,9 @@ if(breakfast && caloriesConsumed > dailyCalories){
 //if the count is over 2000
 }else{
     console.log("You have over passed your goal!!");
-    alert(name+" "+"You have over passed your goal!!");
+    alert(name+" "+"You have over passed your goal by"+" "+overPassed+" "+"calories");
 }
+
 
 
 

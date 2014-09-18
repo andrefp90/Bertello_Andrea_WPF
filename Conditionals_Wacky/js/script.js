@@ -22,9 +22,14 @@ var dailyCalories = 2000;
 
 //how many calories do you have left
 var caloriesLeft =dailyCalories-( breakfast += caloriesConsumed);
-console.log ("You have"+" "+caloriesLeft+"Calories left"+)
+console.log ("You have"+" "+caloriesLeft+" "+"Calories left");
+
 //if the calories and the breakfast is less than 2000
 
+if(breakfast && caloriesConsumed > dailyCalories){
+    console.log("You haven't reached the goal you have "+" "+caloriesLeft+" "+"calories left")
+    
+}
 
 
 

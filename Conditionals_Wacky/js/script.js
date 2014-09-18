@@ -28,8 +28,11 @@ console.log ("You have"+" "+caloriesLeft+" "+"Calories left");
 
 if(breakfast && caloriesConsumed > dailyCalories){
     console.log("You haven't reached the goal you have "+" "+caloriesLeft+" "+"calories left")
-    
+
+}else{
+    console.log("You have over passed your goal!!")
 }
+
 
 
 

@@ -22,7 +22,7 @@ console.log("You have worked"+" "+"hours");
 if (hoursWorked === ""){
     ("oops You forgot to write the answer: Please type in how many hours have you worked");
 }
-timeForBreak = (timeWorking > hoursWorked)?"You need a break:Get out and stretch your legs":"You've got more work to do"
+timeForBreak = (timeWorking < hoursWorked)?"You need a break:Get out and stretch your legs":"You've got more work to do"
 alert(timeForBreak);
 
 

@@ -42,6 +42,50 @@ if(milesTankGas > 200){
     alert("You only have"+" "+fuelLeft+" "+"gallons of gas in your tank")
 }
 
+//Grade letter calculator
+
+var aPlus= 95<100;
+var A= 90<94;
+var bPlus =85<89;
+var b =80<84;
+var cPlus= 76<79;
+var C =73<75;
+var D= 70<72;
+var F= 0<69;
+var grade =prompt("what is your grade percentage?");
+console.log(grade);
+var gradeLetter;
+
+if (grade<aPlus){
+    console.log("your grade is A+")
+
+}else if(grade<A){
+    console.log("your grade is A")
+}
+
+//Check the login
+
+var userName=prompt("Please type in your username");
+console.log(userName);
+var password=prompt("Please type in your password");
+console.log(password);
+
+var correctUser=prompt("Please type in your username");
+console.log(correctUser);
+
+var correctPassword=prompt("Please type in your password");
+console.log(correctPassword);
+
+if(userName ===correctUser){
+
+}else if(password===correctPassword){
+    alert ("Welcome")
+}
+if (userName||correctUser){
+    alert("user not found")
+}else if(password||correctPassword){
+    alert("Password incorrect")
+}
 
 
 

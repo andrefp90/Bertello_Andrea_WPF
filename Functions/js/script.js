@@ -6,19 +6,14 @@
 
 //Functions - Basic Structure
 
-//variable scope
-var width = 5;
+    //Parameters and Arguments
+calcArea(30,20);
 
-function outptMsg(){
-    console.log("hello world")
+function calcArea (w,h){//w=30, h=20
+    var area = w *h;
+    consoel.log(area);
+
 }
-function calcArea(){
-    var width = 20;
-    var height = 30;
-    var area = width *height;
-    //console.log(area);
-}
-console.log(width);
-calcArea();
+
 
 

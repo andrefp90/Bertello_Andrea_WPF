@@ -7,13 +7,14 @@
 //Functions - Basic Structure
 
     //Parameters and Arguments
-calcArea(30,20);
 
-function calcArea (w,h){//w=30, h=20
-    var area = w *h;
-    consoel.log(area);
+function dogYears(age){//use , to separate if there is more //()Parameters
 
+    var dogYears = age *7;
+    console.log("Sparky is " +dogYears+"years")
 }
-
+var age1 = 4;//arguments
+dogYears(age1);
+dogYears(5);
 
 

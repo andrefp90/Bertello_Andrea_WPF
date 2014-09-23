@@ -6,16 +6,16 @@
 
 //Functions - Basic Structure
 
-// Functions vs Procedure
+// Anonymous Functions
 
-function calcAreaF(width, height){
+
+var calcArea = function(width,height){//defining
+    //code the function runs
     var area = width * height;
     return area;
 }
 
-//This is a procedure
-function calcAreaP(width,height){
-    var area = width * height;
-    console.log(area); //no return
+var a = calcArea(20, 30); //invoking
+console.log (a);
 
-}
+//You have to declare function before using it

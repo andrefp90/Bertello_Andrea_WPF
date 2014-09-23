@@ -6,15 +6,13 @@
 
 //Functions - Basic Structure
 
-    //Parameters and Arguments
+//Returning Values
 
-function dogYears(age){//use , to separate if there is more //()Parameters
+var total =calcArea (30,20);
 
-    var dogYears = age *7;
-    console.log("Sparky is " +dogYears+"years")
+function calcArea(w,h){
+    var area = w *h;
+    return area; //function is spitting the info out
 }
-var age1 = 4;//arguments
-dogYears(age1);
-dogYears(5);
 
-
+console.log (total);

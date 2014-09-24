@@ -57,6 +57,11 @@ while (tripExpenses ===""||isNaN(tripExpenses) ){
     tripExpenses= parseInt(prompt("Please don't leave blank.\n Please type in a number:"));
     console.log(tripExpenses);
 }
+//variable to catch the returned value
+
+var returnN= total(flight,hotel,tripExpenses);
+console.log(returnN);
+
 
 
 

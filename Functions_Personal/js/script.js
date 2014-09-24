@@ -19,3 +19,7 @@ while (name ===""){
 }
 
 alert("Welcome"+" "+name+"! Let's see how much will be your travel budget!");
+
+//Find out how much is the flight
+var flight =parseInt(prompt("Please type in how much dose the flight cost? "));
+console.log(flight);

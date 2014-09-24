@@ -72,6 +72,7 @@ console.log(Math.floor(5.6));
 console.log(Math.round(Math.random()*(max-min)+ Number(min));
 */
 
+
 //Function call
 //setiup a variable to cath the returned value
 
@@ -87,7 +88,7 @@ function randomizer(minNum, maxNum){//parameters here
 
     //we need arguments and parameters
     //parameters catch the incoming values of the arguments
-    var randNum=(Math.round(Math.random()*(maxNum-minNum)+ Number(minNum));
+    var randNum= Math.round(Math.random()*(maxNum-minNum)+ Number(minNum));
 
     //return value
     return randNum;

@@ -8,7 +8,7 @@
 
 //welcome the user, ask their name and inform what this is about
 var name=prompt("Please type in your name:");
-console.log (name)
+console.log (name);
 alert("Welcome"+" "+name+"! Let's see what you should wear!");
 
 //different temperatures to see is it's warm or cold

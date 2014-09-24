@@ -49,6 +49,15 @@ while (hotel ===""||isNaN(hotel) ){
 var tripExpenses =parseInt(prompt("How much will you spend on food and shopping in your trip?"));
 console.log(tripExpenses);
 
+//If the user dose not write the answer
+
+while (tripExpenses ===""||isNaN(tripExpenses) ){
+
+    //Re-prompt the user
+    tripExpenses= parseInt(prompt("Please don't leave blank.\n Please type in a number:"));
+    console.log(tripExpenses);
+}
+
 
 
 

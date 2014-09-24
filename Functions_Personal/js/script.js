@@ -16,6 +16,7 @@ while (name ===""){
 
     //Re-prompt the user
     name= prompt("Please don't leave blank.\n Type in you name:");
+    console.log(name);
 }
 
 alert("Welcome"+" "+name+"! Let's see how much will be your travel budget!");
@@ -23,3 +24,11 @@ alert("Welcome"+" "+name+"! Let's see how much will be your travel budget!");
 //Find out how much is the flight
 var flight =parseInt(prompt("Please type in how much dose the flight cost? "));
 console.log(flight);
+
+//If the user dose not write the answer
+while (flight ==="" || isNaN(flight)){
+
+    //Re-prompt the user
+    flight= parseInt(prompt("Please don't leave blank.\n Please type in Number"));
+    console.log(flight);
+}

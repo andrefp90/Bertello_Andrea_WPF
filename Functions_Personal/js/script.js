@@ -63,6 +63,16 @@ var returnN= total(flight,hotel,tripExpenses);
 console.log(returnN);
 
 
+//create Function
+
+function total (flightN,hotelN,tripExpensesN) {
+    var budget = flight + hotel + tripExpenses;
+    alert(name + " " + "You will spend" + " " + budget + " " + "dollars!");
+}
+
+
+
+
 
 
 

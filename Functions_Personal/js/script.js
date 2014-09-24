@@ -45,4 +45,10 @@ while (hotel ===""||isNaN(hotel) ){
     console.log(hotel);
 }
 
+//Ask user how much will he spend in the trip
+var tripExpenses =parseInt(prompt("How much will you spend on food and shopping in your trip?"));
+console.log(tripExpenses);
+
+
+
 

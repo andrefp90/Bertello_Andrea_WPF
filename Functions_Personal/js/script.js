@@ -32,3 +32,17 @@ while (flight ==="" || isNaN(flight)){
     flight= parseInt(prompt("Please don't leave blank.\n Please type in Number"));
     console.log(flight);
 }
+
+//ask fos hotel cost
+var hotel = parseInt(prompt("How much will the hotel cost?"));
+console.log(hotel);
+
+//If the user dose not write the answer
+while (hotel ===""||isNaN(hotel) ){
+
+    //Re-prompt the user
+    hotel= parseInt(prompt("Please don't leave blank.\n Please type in a number:"));
+    console.log(hotel);
+}
+
+

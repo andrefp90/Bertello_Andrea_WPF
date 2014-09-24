@@ -26,3 +26,4 @@ function beeStings (bee , horse){
 }
 
 console.log ("It takes"+" "+victimsW+" "+"bee sting to kill a horse");
+

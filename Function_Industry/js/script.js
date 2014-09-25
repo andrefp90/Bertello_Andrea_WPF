@@ -57,10 +57,24 @@ while (yearsMonth ==="") {
 }
 // if the loan is in months or years
 if(yearsMonth==="years") {
+
     //if years how many years?
     var howYears = parseInt(prompt("For how many years is the loan ?"));
     console.log(howYears);
 
+    //to get the total you multiply the loan times the interest and add it to the loan
+    var yearsTotal = (loan * interestPercentage)+loan;
+    console.log(yearsTotal);
+
+    //alert user of how much is the total of his loan
+    alert("You will pay a total of"+" "+yearsTotal+" "+"to cover your loan");
+
+//else the answer is month
+}else if (yearsMonth ==="month") {
+
+    //for how many months is the loan
+    var howMonths = parseInt(prompt("For how many months is the loan?"));
+    console.log(howMonths);
 }
 
 

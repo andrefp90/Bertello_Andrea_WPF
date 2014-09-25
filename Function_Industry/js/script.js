@@ -42,5 +42,9 @@ while (interest ===""|| isNaN(interest)){
     console.log(interest);
 }
 
+//divide interest by 100 to get de percentage in decimal
+var interestPercentage = interest/100;
+console.log(interestPercentage);
+
 
 

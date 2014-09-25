@@ -75,7 +75,17 @@ if(yearsMonth==="years") {
     //for how many months is the loan
     var howMonths = parseInt(prompt("For how many months is the loan?"));
     console.log(howMonths);
+
+
+    //divide the loan with how many months then multiply it by the interest and add it to the loan
+    var monthTotal=(loan/howMonths)*interestPercentage +loan;
+    console.log(monthTotal);
+
+    //to get how much will have to pay each month the total we divide by the months
+    var monthPayment= monthTotal/howMonths;
+    console.log(monthPayment);
 }
+
 
 
 

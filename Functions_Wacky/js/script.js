@@ -22,4 +22,16 @@ var calcTv = function(hours,days){
     var total= hours*days;
     return total;
 }
+//prompt user for how many hours dose she/he watch tv
+var hHours =parseInt(prompt("How many hours do you watch tv in a day?"));
+console.log (hHours);
+
+//If the user forgets to put the input
+while (hHours===""||isNaN(hHours)){
+    //Re-prompt user
+    hHours =parseInt(prompt("Please don't leave blank.\nHow many hours do you watch tv in a day?"));
+    console.log(hHours);
+}
+
+
 

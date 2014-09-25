@@ -33,5 +33,17 @@ while (hHours===""||isNaN(hHours)){
     console.log(hHours);
 }
 
+//prompt user to see if he wants to know in year or month
+var yearOrMonth =prompt("Do you want to know how much tv you watch in a month or in a year");
+console.log(yearOrMonth);
+
+//If the user forgets to put the input
+while (yearOrMonth===""){
+    //Re-prompt user
+    yearOrMonth =parseInt(prompt("Please don't leave blank.\nDo you want to know in a year or a month?"));
+    console.log(yearOrMonth);
+}
+
+
 
 

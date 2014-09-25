@@ -55,7 +55,13 @@ while (yearsMonth ==="") {
     yearsMonth = prompt("Please don't leave blank.\n Type in month or years:");
     console.log(yearsMonth);
 }
+// if the loan is in months or years
+if(yearsMonth==="years") {
+    //if years how many years?
+    var howYears = parseInt(prompt("For how many years is the loan ?"));
+    console.log(howYears);
 
+}
 
 
 

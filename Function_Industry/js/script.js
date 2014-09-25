@@ -19,3 +19,15 @@ while (name ===""){
 
 alert("Welcome"+" "+name+"! Let's see how much you will have to pay for your loan!");
 
+//prompt for how much was the loan
+var loan =parseInt(prompt("How much did you ask for the loan?"));
+console.log(loan)
+
+//if the user forgot to write input
+while (loan ===""|| isNaN(loan)){
+
+    //Re-prompt the user
+    loan= prompt("Please don't leave blank.\n Type in you name:");
+    console.log(loan);
+}
+

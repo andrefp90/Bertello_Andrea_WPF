@@ -63,6 +63,16 @@ if(yearOrMonth==="year") {
     alert("You watch"+" "+month+" "+"hours in a month!");
 }
 
+//Ternary
+var tooMany = hHours;
+var many;
+
+many=(tooMany>4)?"You watch too much television":"Good you don't watch too much tv";
+console.log(many);
+alert(many);
+
+
+
 
 
 

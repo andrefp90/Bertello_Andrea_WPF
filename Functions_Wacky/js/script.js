@@ -44,6 +44,16 @@ while (yearOrMonth===""){
     console.log(yearOrMonth);
 }
 
+//calculations to see how many hours you watch in total in month or year
+
+var year =calcTv(hHours,360);
+console.log(year);
+
+var month =calcTv(hHours,30);
+console.log(month);
+
+
+
 
 
 

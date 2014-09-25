@@ -67,7 +67,8 @@ if(yearsMonth==="years") {
     console.log(yearsTotal);
 
     //alert user of how much is the total of his loan
-    alert("You will pay a total of"+" "+yearsTotal+" "+"to cover your loan");
+    alert("You will pay a total of"+" "+roundResults(yearsTotal)+" "+"to cover your loan");
+
 
 //else the answer is month
 }else if (yearsMonth ==="month") {
@@ -85,7 +86,8 @@ if(yearsMonth==="years") {
     var monthPayment= monthTotal/howMonths;
     console.log(monthPayment);
     //alert user of how much he will pay by month
-    alert("You will make monthly payments of"+" "+monthPayment);
+    alert("You will make monthly payments of"+" "+roundResults(monthPayment));
+
 }
 
 //function for rounding the result
@@ -95,6 +97,7 @@ function roundResults(yearsTotal,monthPayment){
     return roundN;
 
 }
+
 
 
 

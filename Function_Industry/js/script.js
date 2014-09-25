@@ -46,5 +46,16 @@ while (interest ===""|| isNaN(interest)){
 var interestPercentage = interest/100;
 console.log(interestPercentage);
 
+//prompt user to see if the loan is in month or years
+var yearsMonth=prompt("Is your loan in month or years?");
+console.log(yearsMonth);
+while (yearsMonth ==="") {
+
+    //Re-prompt the user
+    yearsMonth = prompt("Please don't leave blank.\n Type in month or years:");
+    console.log(yearsMonth);
+}
+
+
 
 

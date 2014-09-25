@@ -56,7 +56,13 @@ console.log(month);
 if(yearOrMonth==="year") {
     console.log("You watch" + " " + year + " " + "hours in a year!");
     alert("You watch" + " " + year + " " + "hours in a year!");
+
+//if the user answered month
+}else if(yearOrMonth==="month"){
+    console.log("You watch"+" "+month+" "+"hours in a month!");
+    alert("You watch"+" "+month+" "+"hours in a month!");
 }
+
 
 
 

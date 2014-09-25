@@ -84,6 +84,16 @@ if(yearsMonth==="years") {
     //to get how much will have to pay each month the total we divide by the months
     var monthPayment= monthTotal/howMonths;
     console.log(monthPayment);
+    //alert user of how much he will pay by month
+    alert("You will make monthly payments of"+" "+monthPayment);
+}
+
+//function for rounding the result
+function roundResults(yearsTotal,monthPayment){
+    var roundN = Math.round(yearsTotal||monthPayment);
+    //return value
+    return roundN;
+
 }
 
 

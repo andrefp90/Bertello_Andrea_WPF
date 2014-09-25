@@ -52,6 +52,12 @@ console.log(year);
 var month =calcTv(hHours,30);
 console.log(month);
 
+//if the user answered year
+if(yearOrMonth==="year") {
+    console.log("You watch" + " " + year + " " + "hours in a year!");
+    alert("You watch" + " " + year + " " + "hours in a year!");
+}
+
 
 
 

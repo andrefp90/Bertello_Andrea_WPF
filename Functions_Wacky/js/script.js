@@ -17,3 +17,9 @@ while (name ===""){
 
 alert("Welcome"+" "+name+"! Let's see how much tv you watch in a year!");
 
+//Anonymous Function to get the result of how many hours
+var calcTv = function(hours,days){
+    var total= hours*days;
+    return total;
+}
+
